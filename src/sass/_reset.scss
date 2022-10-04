@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 *,
 ::before,
 ::after {
@@ -25,7 +25,6 @@ a {
   color: inherit;
   font-weight: 600;
 }
-
 li {
   list-style: none;
 }
@@ -36,20 +35,19 @@ button {
   padding: 0.3rem;
   border-radius: 5px;
   cursor: pointer;
+  &:active {
+    transform: scale(0.98);
+    box-shadow: none;
+  }
 }
-button:active {
-  transform: scale(0.98);
-  box-shadow: none;
-}
+
 
 input:focus {
   outline: none;
 }
-
-h1, h2, h3, h4 {
+h1,h2,h3,h4 {
   text-transform: uppercase;
 }
-
-img {
+ img{
   width: 100%;
-}/*# sourceMappingURL=index.css.map */
+ }
